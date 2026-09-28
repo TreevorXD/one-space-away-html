@@ -1,6 +1,9 @@
 <section id="hero" class="hero">
     <div class="section-container hero-container">
         <div class="hero-content">
+            <div class="hero-logo">
+                <img src="Logo.png" alt="Victoria Water Polo Club logo" width="120" height="120">
+            </div>
             <h1 class="hero-title">Victoria Water Polo Club</h1>
             <p class="hero-subtitle">
                 Saturday night water polo for adults 16+. New or experienced, come play.
@@ -19,6 +22,8 @@
 </section>
 
 <style>
+    .hero-logo { margin-bottom: var(--px-28); }
+    .hero-logo img { display: block; width: clamp(5rem, 12vw, 7.5rem); height: auto; }
     .hero { min-height: 100vh; padding-block: 6.688rem var(--px-56); display: flex; align-items: center; }
     .hero-container { width: 100%; display: grid; grid-template-columns: 1fr 1fr; gap: var(--px-64); align-items: center; }
     .hero-content { max-width: 37.5rem; }
