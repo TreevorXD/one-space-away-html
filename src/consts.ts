@@ -1,22 +1,22 @@
 import type { Site, Socials } from './types';
 
 export const SITE: Site = {
-  COMPANY_NAME: 'One Space Away',
-  LEGAL_NAME: 'One Space Away Interiors, LLC',
-  TITLE: 'Home, just the way you like.',
-  DESCRIPTION: 'Discover the joy of living in a space that feels truly yours.',
+  COMPANY_NAME: 'Victoria Water Polo Club',
+  LEGAL_NAME: 'South Island Water Polo Association',
+  TITLE: 'Victoria Water Polo Club',
+  DESCRIPTION: 'Dedicated to promoting water polo in Victoria, BC.',
   CANONICAL_URL: import.meta.env.DEV
     ? 'http://localhost:4321'
-    : 'https://one-space-away-html.pages.dev',
+    : 'https://victoriawaterpolo.ca',
   LOCALE: 'en',
-  TELEPHONE: '(310) 555-2389',
-  EMAIL: 'info@onespaceaway.com',
-  ADDRESS: '456 Camden Drive, Suite 300, Beverly Hills, CA 90210',
+  TELEPHONE: '(250) 818-2999',
+  EMAIL: 'contact@victoriawaterpolo.ca',
+  ADDRESS: '4636 Elk Lake Dr, Victoria, BC V8Z 5M1',
 
   OG_IMAGE: '/og-image.webp',
 
   TWITTER: {
-    CREATOR: '@one_space_away',
+    CREATOR: '@victoriawaterpolo',
     CARD: 'summary_large_image',
   },
 };
